@@ -291,7 +291,7 @@ font-weight: 700;
     .address{
       display:flex;
       font-style: normal;
-      align-items: center;
+     
     }
     .address-ul{
       display: flex;
@@ -347,11 +347,13 @@ font-weight: 700;
       background-color: #404bbf;
       
     }
-  
+
   }
 
   @media screen and (min-width: 1158px) {
+
     .address-ul{
+  
       flex-direction: row;
       gap: 40px;
       padding: 24px 0;
